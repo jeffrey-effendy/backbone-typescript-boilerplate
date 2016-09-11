@@ -1,0 +1,26 @@
+{
+  "baseUrl": ".",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "moduleResolution": "classic"
+  },
+  "files": [
+    "typings/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings",
+    "templates",
+    "build",
+    "dist"
+  ]
+}
